@@ -41,10 +41,9 @@ function formval(){
       }
     }
     if(a==15){
-      document.location = "./main.html";
+      document.location = "./index.html";
     }
     else{
       document.reload();
     }
-    document.getElementById("usrname").innerHTML = "<h2> welcome " + name  ;
   }

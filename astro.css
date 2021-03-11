@@ -9,6 +9,13 @@ body {
     background-attachment:fixed;
 	opacity: 1;
 }
+.giffy{
+  background-image: url("./universe.gif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+	opacity: 1;
+}
 .brand{
     font-size: 45px;
     color:white;
@@ -66,18 +73,32 @@ body {
   color: aqua;
 }
 .a{
-    font-size: 30px;
+    font-size: 35px;
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
     color: white;
 }
 .b{
-    font-size: 35px;
+    font-size: 27px;
     font-family:'calibri';
     font-weight: bold;
     color: whitesmoke;
 }
-
+.infoas{
+  font-size: 28px;
+    font-family:'calibri';
+    font-weight: bold;
+    color: white;
+}
+.infoas a{
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.infoas a:hover{
+  color: aqua;
+  border-bottom: 1px solid aqua;
+}
 .aboutd{
     font-size: 25px;
     font-family:'times new roman';
