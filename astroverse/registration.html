@@ -1,0 +1,42 @@
+<html>  
+<head>
+  <title>form</title>
+  <script language="javascript" type="text/javascript" src="userfile.js"></script>
+</head>
+<body>
+  <p style="Font-size:30px;color:rgb(48,108,177);font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" align="center">Registration form</p><hr><br>
+  <form name="form" id="form" action="/" method="GET">
+    <table border="4" align="center" cellspacing="0">
+      <tr>
+        <td>
+          <table align="center">
+            <tr>
+              <td>Username</td>
+              <td><input type="text" name="username" id="username" required></td>
+            </tr>
+            <tr>
+              <td>Email id</td>
+              <td><input type="text" name="email" id="email" required></td>
+            </tr>
+            <tr>
+              <td>Password</td>
+              <td><input type="password" name="password" id="password" minlength="6" required></td>
+            </tr>
+            <tr>
+              <td>Retype password</td>
+              <td><input type="password" name="repassword" id="repassword" required></td>
+            </tr>
+            <tr>
+              <td>Mobile Number</td>
+              <td><input type="text" name="phoneno" id="phoneno" required></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center"><input style="background-color:rgb(21, 150, 255);color:white;font-size:15;" type="button" name="button" value="Button" onclick="formval()"></td>
+            </tr>
+          </td>
+      </tr>
+      </table>
+  </table>
+  </form>
+</body>
+</html>
